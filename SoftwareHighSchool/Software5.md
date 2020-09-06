@@ -349,7 +349,7 @@ TEST 중
 ### DNS?  
 
 DNS란 `Domain Name System`의 약자로, 쉽게 말해서 도메인 주소와 네트워크주소를 연결해주는 시스템이라고 생각하면 된다.  
-![DNS](https://thumbs.dreamstime.com/z/dns-156503587.jpg)
+![DNS](https://user-images.githubusercontent.com/45495211/92323657-6126e400-f075-11ea-8c78-6f1bf1bb5a83.jpg)   
 지금은 우리가 `Github`을 통해서 호스팅을 했지만 실제 사이트를 호스팅 할 때에는 처음에는 서버컴퓨터의 IP 주소를 이용해서 호스팅 하게된다.  
 예를 들어 주소창에 `125.209.222.141`을 검색하면 곧바로 네이버로 연결된다.  
 네이버를 호스팅해주는 서버의 IP주소`(125.209.222.141)`와 도메인`(naver.com)`이 연결된 상태이다.  
@@ -482,13 +482,14 @@ Github에서 새 레포를 판다. 이때 저장소 이름은 ```username.github
 * 프로젝트 별 페이지 만들기
 프로젝트별로 만들 수도 있다. 이때는 프로젝트 이름이 꼭 ```username.github.io```이어야 할 필요가 없지만 프로젝트 페이지 주소는 ```username.github.io/projectname```이 된다.
 
-> 레포  만드는 페이지 그림 삽입
+<img width="844" alt="makeRepo" src="https://user-images.githubusercontent.com/45495211/92323659-6421d480-f075-11ea-8272-de0fc1a0bbff.png">   
 
 #### 마음에 드는 Jekyll 테마 찾기
 Github에 이미 좋은 테마들이 많으니 하나 골라 보자.   
 [Jekyll themes](https://github.com/topics/jekyll-theme)   
 
 여기서는 제일 상단에 뜨는 minimal-mistakes를 사용해보겠다.
+<img width="845" alt="JkTheme" src="https://user-images.githubusercontent.com/45495211/92323661-65530180-f075-11ea-9ce8-433c53b01d2a.png">   
 
 #### ```_config.yml``` 파일 가져오기
 
@@ -525,6 +526,8 @@ author_profile: true
 ---
 ```
 
+<img width="842" alt="index_content" src="https://user-images.githubusercontent.com/45495211/92323662-66842e80-f075-11ea-9913-b105beb43ef3.png">
+
 - 테마에 따라 추가로 가져와야 하는 파일이 있을 수도 있다. 페이지가 제대로 작동하지 않는다면 지킬 테마 페이지로 가서 필요한 파일을 확인해주자.
 
 #### ```_posts``` 폴더에 새 포스트 쓰기
@@ -548,7 +551,7 @@ categories: jekyll update
 
 #### 완성된 블로그 확인하기
 
-> 이것두 사진 업로드 후 
+<img width="844" alt="finished_blog" src="https://user-images.githubusercontent.com/45495211/92323663-671cc500-f075-11ea-9afc-86186fc9a449.png">   
 
 이렇게 Jekyll remote theme을 이용해 쉽고 빠르게 블로그를 만들어 보았다. 
 
