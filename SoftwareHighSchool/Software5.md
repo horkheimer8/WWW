@@ -1,7 +1,7 @@
 # Jekyll을 활용한 Blogging
-##### 잠깐! 그 전에!
+#### 잠깐! 그 전에!
 ### `markdown` 문법
-![markdown](./statics/markdown.png)  
+<img src="./statics/markdown.png" alt="markdown" width="200"/>
 이때까지 배웠던 `.html` 말고 웬 이상한 `.md` 파일을 작성해야 한다! 한번 대충 봤지만, 다시 한번 더 보기로 하자.
 못 느꼈다고? 거짓말하지 마라. 다 알고 있다... 뭔가 이상했다고 해줘..
 
@@ -23,7 +23,7 @@
 뭐 처음엔 한글 쓰는 것 보다 어려울 순 있어도, 익숙해지고 나면 꽤 편하다. 실제로 주는 효과도 몇 없고.. 이미지와 볼드 처리 정도만 할 줄 알면 꽤나 훌륭한 문서를 적을 수 있게 될 것이다.
 이제 주로 사용하는 문법들을 가지고 실습해보자.
 
-### Markdown 실습
+### 간단한 Markdown 문법 
 <details markdown="1">
 <summary>접기/펼치기</summary>
 
@@ -196,6 +196,9 @@ HTML 또는 Markdown으로 글을 작성하면 미리 정의해 놓은 규칙에
 일단 `Ruby` 설치부터 진행해 보자
 
 #### Ruby 설치하기
+<details markdown="1">
+<summary>Window OS</summary>
+
 [Ruby Installer 공식 페이지](https://rubyinstaller.org/)  
 일단 위의 페이지로 들어가서 빨갛고 커다란 Download를 누르면 다음과 같은 창이 뜰 것이다.  
 ![RubyInstaller](./statics/classdata/jekyll/rubyinstaller.PNG)  
@@ -231,6 +234,18 @@ gem install bundle
 gem install github-pages
 gem install tzinfo-data
 ``` 
+</details>
+
+<details markdown="1">
+<summary>Mac OS</summary>
+
+맥은 편하게도 macOS Sierra 버전 이후로는 이미 Ruby가 내장되어 있다. 하지만 우리가 원하는 버전이 아닐 수 있기 때문에 일단 루비 버전 정보부터 확인해보자. 
+Terminal을 열어 ```ruby -v```를 입력하면 현재 루비의 버전을 볼 수 있다.    
+우리가 사용할 버전인 2.6.6이 깔려있지 않다면 Homebrew의 도움을 받아 루비를 깔아보자. Homebrew는 (지금 첨 들어봤다면 Mac 사용자라면 앞으로도 계속 만날 것이다 ㄹㅇ필수템) 
+맥용 패키지 관리 어플리케이션이다. 
+
+</details>
+
 처음부터 블로그를 만들기는 대단히 어려운 작업이기 때문에, 다음 사이트들을 참고하여 마음에 드는 테마를 구하자.
 하지만 이번 수업에서는 편의를 위해 완성되어 있는 블로그를 사용할 것이다.  
 
